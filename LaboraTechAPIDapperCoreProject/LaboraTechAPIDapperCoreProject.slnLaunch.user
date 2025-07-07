@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "APIProjectLayer\\APIProjectLayer.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "LaboraTechDapperCoreMVCLayer\\LaboraTechDapperCoreMVCLayer.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

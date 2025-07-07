@@ -1,0 +1,33 @@
+﻿@model LaboraTechDapperCoreMVCLayer.Models.Address
+<div class="container-fluid bg-primary text-white pt-4 pb-5 d-none d-lg-flex position-relative">
+    <div class="container pb-2">
+        <div class="d-flex align-items-center justify-content-between">
+
+            <!-- Sol: Call Now -->
+            <div class="d-flex">
+                <i class="bi bi-telephone-inbound fs-2"></i>
+                <div class="ms-3">
+                    <h5 class="text-white mb-0">Call Now</h5>
+                    <span>@Model.Phone</span>
+                </div>
+            </div>
+
+            <!-- Orta: Logo -->
+            <a href="#home" class="h1 text-white mb-0">Labora<span class="text-dark">Tech</span></a>
+
+            <!-- Sağ: Mail Now -->
+            <div class="d-flex">
+                <i class="bi bi-envelope fs-2"></i>
+                <div class="ms-3">
+                    <h5 class="text-white mb-0">Mail Now</h5>
+                    <span>@Model.Mail</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sağ üst köşe: Update butonu -->
+        <a href="/Address/Update/@Model.AddressId" class="btn btn-outline-light btn-sm position-absolute" style="top: 50%; right: 40px; transform: translateY(-50%); border-radius: 20px;">
+            <i class="bi bi-pencil-square me-1"></i> Update
+        </a>
+    </div>
+</div>

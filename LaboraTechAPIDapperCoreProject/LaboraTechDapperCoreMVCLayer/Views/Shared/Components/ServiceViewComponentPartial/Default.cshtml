@@ -1,0 +1,38 @@
+﻿@model List<LaboraTechDapperCoreMVCLayer.Models.Services>
+<div class="container-fluid container-service py-5">
+	<div class="container pt-5">
+		<div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+			<h1 class="display-6 mb-3">Reliable, Precise, and Comprehensive Lab Services</h1>
+			<p class="mb-5">Sterile, accurate, and trusted lab solutions tailored to your needs.</p>
+			<a href="/Service/Add" class="btn btn-primary py-3 px-5">Add New Service</a>
+			<br />
+			<br />
+		</div>
+		<div class="row g-4">
+
+
+			@for (int i = 0; i < Model.Count; i++)
+			{
+				var item = Model[i];
+				var delay = (i % 4) switch
+				{
+					0 => "0.1s",
+					1 => "0.3s",
+					2 => "0.5s",
+					_ => "0.7s"
+				};
+				<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="@delay">
+					<div class="service-item">
+						<div class="icon-box-primary mb-4">
+							<i class="bi bi-@item.Icon text-dark"></i>
+						</div>
+						<h5 class="mb-3">@item.Title</h5>
+						<p class="mb-4">@item.ShortDescription</p>
+						<a class="btn btn-light px-3" href="/Service/Update/@item.ServicesId">Update<i class="bi bi-chevron-double-right ms-1"></i></a>
+						<a class="btn btn-light px-3" href="/Service/Delete/@item.ServicesId">Delete<i class="bi bi-chevron-double-left ms-1"></i></a>
+					</div>
+				</div>
+			}
+		</div>
+	</div>
+</div>

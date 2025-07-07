@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6033EEC6-5086-462C-84F6-CDD1B0CF1A9E}|LaboraTechDapperCoreMVCLayer\\LaboraTechDapperCoreMVCLayer.csproj|c:\\users\\buse\\source\\repos\\laboratechapidappercoreproject\\laboratechdappercoremvclayer\\wwwroot\\template\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6033EEC6-5086-462C-84F6-CDD1B0CF1A9E}|LaboraTechDapperCoreMVCLayer\\LaboraTechDapperCoreMVCLayer.csproj|solutionrelative:laboratechdappercoremvclayer\\wwwroot\\template\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6033EEC6-5086-462C-84F6-CDD1B0CF1A9E}|LaboraTechDapperCoreMVCLayer\\LaboraTechDapperCoreMVCLayer.csproj|c:\\users\\buse\\source\\repos\\laboratechapidappercoreproject\\laboratechdappercoremvclayer\\views\\shared\\components\\testimonialviewcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6033EEC6-5086-462C-84F6-CDD1B0CF1A9E}|LaboraTechDapperCoreMVCLayer\\LaboraTechDapperCoreMVCLayer.csproj|solutionrelative:laboratechdappercoremvclayer\\views\\shared\\components\\testimonialviewcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6033EEC6-5086-462C-84F6-CDD1B0CF1A9E}|LaboraTechDapperCoreMVCLayer\\LaboraTechDapperCoreMVCLayer.csproj|c:\\users\\buse\\source\\repos\\laboratechapidappercoreproject\\laboratechdappercoremvclayer\\views\\shared\\components\\topbarviewcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6033EEC6-5086-462C-84F6-CDD1B0CF1A9E}|LaboraTechDapperCoreMVCLayer\\LaboraTechDapperCoreMVCLayer.csproj|solutionrelative:laboratechdappercoremvclayer\\views\\shared\\components\\topbarviewcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6033EEC6-5086-462C-84F6-CDD1B0CF1A9E}|LaboraTechDapperCoreMVCLayer\\LaboraTechDapperCoreMVCLayer.csproj|c:\\users\\buse\\source\\repos\\laboratechapidappercoreproject\\laboratechdappercoremvclayer\\views\\shared\\components\\serviceviewcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6033EEC6-5086-462C-84F6-CDD1B0CF1A9E}|LaboraTechDapperCoreMVCLayer\\LaboraTechDapperCoreMVCLayer.csproj|solutionrelative:laboratechdappercoremvclayer\\views\\shared\\components\\serviceviewcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6033EEC6-5086-462C-84F6-CDD1B0CF1A9E}|LaboraTechDapperCoreMVCLayer\\LaboraTechDapperCoreMVCLayer.csproj|c:\\users\\buse\\source\\repos\\laboratechapidappercoreproject\\laboratechdappercoremvclayer\\views\\shared\\components\\aboutviewcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6033EEC6-5086-462C-84F6-CDD1B0CF1A9E}|LaboraTechDapperCoreMVCLayer\\LaboraTechDapperCoreMVCLayer.csproj|solutionrelative:laboratechdappercoremvclayer\\views\\shared\\components\\aboutviewcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6033EEC6-5086-462C-84F6-CDD1B0CF1A9E}|LaboraTechDapperCoreMVCLayer\\LaboraTechDapperCoreMVCLayer.csproj|c:\\users\\buse\\source\\repos\\laboratechapidappercoreproject\\laboratechdappercoremvclayer\\views\\shared\\components\\brandviewcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6033EEC6-5086-462C-84F6-CDD1B0CF1A9E}|LaboraTechDapperCoreMVCLayer\\LaboraTechDapperCoreMVCLayer.csproj|solutionrelative:laboratechdappercoremvclayer\\views\\shared\\components\\brandviewcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6033EEC6-5086-462C-84F6-CDD1B0CF1A9E}|LaboraTechDapperCoreMVCLayer\\LaboraTechDapperCoreMVCLayer.csproj|c:\\users\\buse\\source\\repos\\laboratechapidappercoreproject\\laboratechdappercoremvclayer\\views\\shared\\components\\teamviewcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6033EEC6-5086-462C-84F6-CDD1B0CF1A9E}|LaboraTechDapperCoreMVCLayer\\LaboraTechDapperCoreMVCLayer.csproj|solutionrelative:laboratechdappercoremvclayer\\views\\shared\\components\\teamviewcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6033EEC6-5086-462C-84F6-CDD1B0CF1A9E}|LaboraTechDapperCoreMVCLayer\\LaboraTechDapperCoreMVCLayer.csproj|c:\\users\\buse\\source\\repos\\laboratechapidappercoreproject\\laboratechdappercoremvclayer\\views\\shared\\components\\footerviewcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6033EEC6-5086-462C-84F6-CDD1B0CF1A9E}|LaboraTechDapperCoreMVCLayer\\LaboraTechDapperCoreMVCLayer.csproj|solutionrelative:laboratechdappercoremvclayer\\views\\shared\\components\\footerviewcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6033EEC6-5086-462C-84F6-CDD1B0CF1A9E}|LaboraTechDapperCoreMVCLayer\\LaboraTechDapperCoreMVCLayer.csproj|c:\\users\\buse\\source\\repos\\laboratechapidappercoreproject\\laboratechdappercoremvclayer\\viewcomponents\\topbarviewcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6033EEC6-5086-462C-84F6-CDD1B0CF1A9E}|LaboraTechDapperCoreMVCLayer\\LaboraTechDapperCoreMVCLayer.csproj|solutionrelative:laboratechdappercoremvclayer\\viewcomponents\\topbarviewcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6033EEC6-5086-462C-84F6-CDD1B0CF1A9E}|LaboraTechDapperCoreMVCLayer\\LaboraTechDapperCoreMVCLayer.csproj|c:\\users\\buse\\source\\repos\\laboratechapidappercoreproject\\laboratechdappercoremvclayer\\viewcomponents\\brandviewcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6033EEC6-5086-462C-84F6-CDD1B0CF1A9E}|LaboraTechDapperCoreMVCLayer\\LaboraTechDapperCoreMVCLayer.csproj|solutionrelative:laboratechdappercoremvclayer\\viewcomponents\\brandviewcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6033EEC6-5086-462C-84F6-CDD1B0CF1A9E}|LaboraTechDapperCoreMVCLayer\\LaboraTechDapperCoreMVCLayer.csproj|c:\\users\\buse\\source\\repos\\laboratechapidappercoreproject\\laboratechdappercoremvclayer\\views\\shared\\components\\headviewcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6033EEC6-5086-462C-84F6-CDD1B0CF1A9E}|LaboraTechDapperCoreMVCLayer\\LaboraTechDapperCoreMVCLayer.csproj|solutionrelative:laboratechdappercoremvclayer\\views\\shared\\components\\headviewcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6033EEC6-5086-462C-84F6-CDD1B0CF1A9E}|LaboraTechDapperCoreMVCLayer\\LaboraTechDapperCoreMVCLayer.csproj|c:\\users\\buse\\source\\repos\\laboratechapidappercoreproject\\laboratechdappercoremvclayer\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6033EEC6-5086-462C-84F6-CDD1B0CF1A9E}|LaboraTechDapperCoreMVCLayer\\LaboraTechDapperCoreMVCLayer.csproj|solutionrelative:laboratechdappercoremvclayer\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BrandViewComponentPartial.cs",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\ViewComponents\\BrandViewComponentPartial.cs",
+              "RelativeDocumentMoniker": "LaboraTechDapperCoreMVCLayer\\ViewComponents\\BrandViewComponentPartial.cs",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\ViewComponents\\BrandViewComponentPartial.cs",
+              "RelativeToolTip": "LaboraTechDapperCoreMVCLayer\\ViewComponents\\BrandViewComponentPartial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T06:36:53.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\Views\\Shared\\Components\\TopBarViewComponentPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "LaboraTechDapperCoreMVCLayer\\Views\\Shared\\Components\\TopBarViewComponentPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\Views\\Shared\\Components\\TopBarViewComponentPartial\\Default.cshtml",
+              "RelativeToolTip": "LaboraTechDapperCoreMVCLayer\\Views\\Shared\\Components\\TopBarViewComponentPartial\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T06:36:40.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TopBarViewComponentPartial.cs",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\ViewComponents\\TopBarViewComponentPartial.cs",
+              "RelativeDocumentMoniker": "LaboraTechDapperCoreMVCLayer\\ViewComponents\\TopBarViewComponentPartial.cs",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\ViewComponents\\TopBarViewComponentPartial.cs",
+              "RelativeToolTip": "LaboraTechDapperCoreMVCLayer\\ViewComponents\\TopBarViewComponentPartial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T06:34:35.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\Views\\Shared\\Components\\BrandViewComponentPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "LaboraTechDapperCoreMVCLayer\\Views\\Shared\\Components\\BrandViewComponentPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\Views\\Shared\\Components\\BrandViewComponentPartial\\Default.cshtml",
+              "RelativeToolTip": "LaboraTechDapperCoreMVCLayer\\Views\\Shared\\Components\\BrandViewComponentPartial\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T06:31:55.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\Views\\Shared\\Components\\HeadViewComponentPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "LaboraTechDapperCoreMVCLayer\\Views\\Shared\\Components\\HeadViewComponentPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\Views\\Shared\\Components\\HeadViewComponentPartial\\Default.cshtml",
+              "RelativeToolTip": "LaboraTechDapperCoreMVCLayer\\Views\\Shared\\Components\\HeadViewComponentPartial\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T06:31:51.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\Views\\Shared\\Components\\TeamViewComponentPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "LaboraTechDapperCoreMVCLayer\\Views\\Shared\\Components\\TeamViewComponentPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\Views\\Shared\\Components\\TeamViewComponentPartial\\Default.cshtml",
+              "RelativeToolTip": "LaboraTechDapperCoreMVCLayer\\Views\\Shared\\Components\\TeamViewComponentPartial\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T06:25:38.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\Views\\Shared\\Components\\TestimonialViewComponentPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "LaboraTechDapperCoreMVCLayer\\Views\\Shared\\Components\\TestimonialViewComponentPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\Views\\Shared\\Components\\TestimonialViewComponentPartial\\Default.cshtml",
+              "RelativeToolTip": "LaboraTechDapperCoreMVCLayer\\Views\\Shared\\Components\\TestimonialViewComponentPartial\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T06:22:59.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\wwwroot\\template\\css\\style.css",
+              "RelativeDocumentMoniker": "LaboraTechDapperCoreMVCLayer\\wwwroot\\template\\css\\style.css",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\wwwroot\\template\\css\\style.css",
+              "RelativeToolTip": "LaboraTechDapperCoreMVCLayer\\wwwroot\\template\\css\\style.css",
+              "ViewState": "AgIAANgAAAAAAAAAAAAAAOcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-07T06:18:41.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\Views\\Shared\\Components\\FooterViewComponentPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "LaboraTechDapperCoreMVCLayer\\Views\\Shared\\Components\\FooterViewComponentPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\Views\\Shared\\Components\\FooterViewComponentPartial\\Default.cshtml",
+              "RelativeToolTip": "LaboraTechDapperCoreMVCLayer\\Views\\Shared\\Components\\FooterViewComponentPartial\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T06:12:45.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\Views\\Shared\\Components\\AboutViewComponentPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "LaboraTechDapperCoreMVCLayer\\Views\\Shared\\Components\\AboutViewComponentPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\Views\\Shared\\Components\\AboutViewComponentPartial\\Default.cshtml",
+              "RelativeToolTip": "LaboraTechDapperCoreMVCLayer\\Views\\Shared\\Components\\AboutViewComponentPartial\\Default.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T06:11:31.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\Views\\Shared\\Components\\ServiceViewComponentPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "LaboraTechDapperCoreMVCLayer\\Views\\Shared\\Components\\ServiceViewComponentPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\Views\\Shared\\Components\\ServiceViewComponentPartial\\Default.cshtml",
+              "RelativeToolTip": "LaboraTechDapperCoreMVCLayer\\Views\\Shared\\Components\\ServiceViewComponentPartial\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T06:11:18.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AboutController.cs",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\Controllers\\AboutController.cs",
+              "RelativeDocumentMoniker": "LaboraTechDapperCoreMVCLayer\\Controllers\\AboutController.cs",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\Controllers\\AboutController.cs",
+              "RelativeToolTip": "LaboraTechDapperCoreMVCLayer\\Controllers\\AboutController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T06:10:32.146Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
