@@ -18,13 +18,25 @@ namespace APIProjectLayer.Controllers
             _dapperContext = dapperModel;
         }
 
-
         [HttpGet]
         [Route("HomeList")]
         public async Task<IEnumerable<Home>> HomeList()
         {
             return await _dapperContext.List<Home>("HomeList");
         }
+
+        [HttpGet]
+        [Route("GetHomeById/{id}")]
+        public async Task<IActionResult> GetHomeById(int id)
+        {
+            DynamicParameters prm = new DynamicParameters();
+            prm.Add("@HomeId", id);
+
+            var values = await _dapperContext.List<Home>("GetHomeById", prm);
+            var firstField = values.FirstOrDefault();
+            return Ok(firstField);
+        }
+
 
         [HttpPut]
         [Route("UpdateHome/{id}")]

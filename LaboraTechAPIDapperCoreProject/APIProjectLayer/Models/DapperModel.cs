@@ -6,7 +6,6 @@ namespace APIProjectLayer.Models
 {
     public class DapperModel
     {
-        //public static string connectionString = "Server=DESKTOP-V7IDV6Q\\SQLEXPRESS01; Initial Catalog=FilmFusion; Integrated Security=True;";
 
         private readonly string _connectionString;
         public DapperModel(IConfiguration config)

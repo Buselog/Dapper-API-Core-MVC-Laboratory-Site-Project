@@ -1,0 +1,46 @@
+﻿@model LaboraTechDapperCoreMVCLayer.Models.Testimonial
+
+@{
+	ViewData["Title"] = "Update";
+	Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+
+<div class="update-form-container">
+	<div class="frosted-form-box fade-slide">
+		<h2 class="form-title">Update Testimonial</h2>
+
+		<form asp-action="Update" asp-controller="Testimonial" method="post">
+
+			<div class="form-group mb-3">
+				<label asp-for="Name" class="form-label">Testimonial Name</label>
+				<input asp-for="Name" class="form-control form-input" />
+			</div>
+
+			<div class="form-group mb-3">
+				<label asp-for="Profession" class="form-label">Profession</label>
+				<input asp-for="Profession" class="form-control form-input">
+			</div>
+
+			<div class="form-group mb-3">
+				<label asp-for="Description" class="form-label">Testimonial Description</label>
+				<textarea asp-for="Description" class="form-control form-input" rows="3"></textarea> 
+			</div>
+
+			<div class="form-group mb-3">
+				<label asp-for="Image" class="form-label">Testimonial Image</label>
+
+				<div class="d-flex align-items-stretch gap-3">
+					<img src="@Model.Image" style="width: 100px; height: 100px; object-fit: cover; border-radius: 6px;" />
+
+					<textarea asp-for="Image" class="form-control form-input" style="height: 100px;"></textarea>
+				</div>
+			</div>
+
+
+			<button type="submit" class="btn btn-update">Update</button>
+		</form>
+	</div>
+</div>
+
+

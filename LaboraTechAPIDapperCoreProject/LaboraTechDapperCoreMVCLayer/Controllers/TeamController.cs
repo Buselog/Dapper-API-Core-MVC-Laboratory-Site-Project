@@ -9,24 +9,16 @@ namespace LaboraTechDapperCoreMVCLayer.Controllers
     {
         private readonly string apiBaseUrl = "https://localhost:7102/api/";
 
-        //public IActionResult Index()
-        //{
-        //    HttpClient client = new HttpClient();
-        //    var response = client.GetAsync($"{apiBaseUrl}Team/TeamList").Result;
-
-        //    List<Team> teamList = JsonConvert.DeserializeObject<List<Team>>(response.Content.ReadAsStringAsync().Result);
-        //    return View(teamList);
-        //}
-
         [HttpGet]
         public IActionResult Add()
         {
             HttpClient client = new HttpClient();
 
+            //Service List for Dropdown
             var response = client.GetAsync($"{apiBaseUrl}Service/ServiceList").Result;
             var serviceList = JsonConvert.DeserializeObject<List<Services>>(response.Content.ReadAsStringAsync().Result);
 
-            ViewBag.Services = serviceList;
+            ViewBag.ServiceList = serviceList;
 
             return View();
         }
@@ -39,7 +31,7 @@ namespace LaboraTechDapperCoreMVCLayer.Controllers
 
             var response = client.PostAsync($"{apiBaseUrl}Team/AddNewTeam", content).Result;
 
-            return RedirectToAction("Index");
+            return RedirectToAction("Index", "LaboraTechLayout");
         }
 
         [HttpGet]
@@ -53,9 +45,9 @@ namespace LaboraTechDapperCoreMVCLayer.Controllers
 
             // Servis listesi
             var serviceResponse = client.GetAsync($"{apiBaseUrl}Service/ServiceList").Result;
-            var serviceList = JsonConvert.DeserializeObject<List<Services>>(serviceResponse.Content.ReadAsStringAsync().Result);
+            List<Services> serviceList = JsonConvert.DeserializeObject<List<Services>>(serviceResponse.Content.ReadAsStringAsync().Result);
 
-            ViewBag.Services = serviceList;
+            ViewBag.ServiceList = serviceList;
 
             return View(team);
         }
@@ -68,7 +60,13 @@ namespace LaboraTechDapperCoreMVCLayer.Controllers
 
             var response = client.PutAsync($"{apiBaseUrl}Team/UpdateTeam/{updatedTeam.TeamId}", content).Result;
 
-            return RedirectToAction("Index");
+            if (!response.IsSuccessStatusCode)
+            {
+                var error = response.Content.ReadAsStringAsync().Result;
+                return Content($"Guncelleme başarısız: {response.StatusCode} - {error}");
+            }
+
+            return RedirectToAction("Index", "LaboraTechLayout");
         }
 
         public IActionResult Delete(int id)

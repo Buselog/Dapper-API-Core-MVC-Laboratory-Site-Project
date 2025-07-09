@@ -3,6 +3,7 @@ using Dapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using static System.Net.WebRequestMethods;
 
 namespace APIProjectLayer.Controllers
 {
@@ -26,6 +27,18 @@ namespace APIProjectLayer.Controllers
             return Ok(value);
         }
 
+        [HttpGet]
+        [Route("GetAddressById/{id}")]
+        public async Task<IActionResult> GetAddressById(int id)
+        {
+            DynamicParameters prm = new DynamicParameters();
+            prm.Add("@AddressId", id);
+
+            var values = await _dapperContext.List<Address>("GetAddressById", prm);
+            var firstField = values.FirstOrDefault();
+            return Ok(firstField);
+        }
+
         [HttpPut]
         [Route("UpdateAddress/{id}")]
         public async Task<IActionResult> UpdateAddress(int id, Address updatedAddress)
@@ -46,7 +59,7 @@ namespace APIProjectLayer.Controllers
         public async Task<IActionResult> DeleteAddress(int id)
         {
             DynamicParameters prm = new DynamicParameters();
-            prm.Add("@AddresId", id);
+            prm.Add("@AddressId", id);
 
             await _dapperContext.Operations("DeleteAddress", prm);
             return Ok();

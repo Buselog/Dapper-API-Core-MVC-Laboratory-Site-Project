@@ -28,12 +28,28 @@ namespace APIProjectLayer.Controllers
 
         }
 
+
+        [HttpGet]
+        [Route("GetAboutById/{id}")]
+        public async Task<IActionResult> GetAboutById(int id)
+        {
+            DynamicParameters prm = new DynamicParameters();
+            prm.Add("@AboutId", id);
+
+            var values = await _dapperContext.List<About>("GetAboutById", prm);
+            var firstField = values.FirstOrDefault();
+            return Ok(firstField);
+        }
+
         [HttpPut]
         [Route("UpdateAbout/{id}")]
         public async Task<IActionResult> UpdateAbout(int id, About updatedAbout)
         {
+            if (updatedAbout == null)
+                return BadRequest("UpdatedAbout cannot be null.");
+
             DynamicParameters prm = new DynamicParameters();
-            prm.Add("@AboutId", id);
+            prm.Add("@AboutId", id);  // URL'den gelen id kullanılıyor
             prm.Add("@Title", updatedAbout.Title);
             prm.Add("@ShortDescription", updatedAbout.ShortDescription);
             prm.Add("@ExperienceYear", updatedAbout.ExperienceYear);
@@ -45,6 +61,7 @@ namespace APIProjectLayer.Controllers
             await _dapperContext.Operations("UpdateAbout", prm);
             return Ok();
         }
+
 
         [HttpDelete]
         [Route("DeleteAbout/{id}")]

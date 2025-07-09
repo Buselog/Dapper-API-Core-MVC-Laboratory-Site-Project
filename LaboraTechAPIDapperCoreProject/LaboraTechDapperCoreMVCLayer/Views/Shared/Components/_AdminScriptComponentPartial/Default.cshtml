@@ -1,0 +1,21 @@
+﻿﻿<script>
+
+     document.addEventListener('DOMContentLoaded', function () {
+       const element = document.querySelector('.fade-slide-in');
+
+       function checkVisibility() {
+         if (!element) return;
+         const rect = element.getBoundingClientRect();
+         const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+
+         if (rect.top <= windowHeight - 100) {
+           element.classList.add('visible');
+           // Animasyon bir kere çalışsın, sonra scroll eventini kaldır
+           window.removeEventListener('scroll', checkVisibility);
+         }
+       }
+
+       checkVisibility();
+       window.addEventListener('scroll', checkVisibility);
+     });
+</script>

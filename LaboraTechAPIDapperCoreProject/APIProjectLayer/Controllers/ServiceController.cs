@@ -53,6 +53,7 @@ namespace APIProjectLayer.Controllers
         public async Task<IActionResult> UpdateService(int id, Services updatedService)
         {
             DynamicParameters prm = new DynamicParameters();
+            prm.Add("@ServicesId", updatedService.ServicesId);
             prm.Add("@Title", updatedService.Title);
             prm.Add("@ShortDescription", updatedService.ShortDescription);
             prm.Add("@Icon", updatedService.Icon);
@@ -66,7 +67,7 @@ namespace APIProjectLayer.Controllers
         public async Task<IActionResult> DeleteService(int id)
         {
             DynamicParameters prm = new DynamicParameters();
-            prm.Add("@ServiceId", id);
+            prm.Add("@ServicesId", id);
 
             await _dapperContext.Operations("DeleteService", prm);
             return Ok();

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NpqN9eCJsxnkw5Ebu1XQjfhj9OnEfIxGuOB59+E+CoQ=",
+  "Hash": "TUNes72fLPXP4o6TOonNIuAH5pqN1Md8JXKnMaHl6Do=",
   "Source": "LaboraTechDapperCoreMVCLayer",
   "BasePath": "_content/LaboraTechDapperCoreMVCLayer",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c2tiyv64ts",
-      "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
+      "Fingerprint": "kl3t3fq8br",
+      "Integrity": "iCm+WEPKNELYd/mj+cSmjH1g7JR9yrdWFDgtQe7TYuQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1438,8 +1438,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "zekattbrkx",
-      "Integrity": "28bBfk/f491hQaqv3kVFzvu6vB32plQMonTveb0+8Ps=",
+      "Fingerprint": "zn1ett9z32",
+      "Integrity": "Ed80c3ZdTjjDvgSBdKZdG1IN8Ba/qnwwN8/EFBzImZM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\template\\css\\style.css"
@@ -1464,6 +1464,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\template\\feature.html"
+    },
+    {
+      "Identity": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\wwwroot\\template\\img\\about.jpg",
+      "SourceId": "LaboraTechDapperCoreMVCLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\wwwroot\\",
+      "BasePath": "_content/LaboraTechDapperCoreMVCLayer",
+      "RelativePath": "template/img/about#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "frcvp2blbx",
+      "Integrity": "pbwTptVyc8/OdVGNtZ23UU8Vb5KRSVeOdazXaBr7n2Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\template\\img\\about.jpg"
     },
     {
       "Identity": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\wwwroot\\template\\img\\about-1.jpg",
@@ -1611,6 +1632,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\template\\img\\footer.png"
+    },
+    {
+      "Identity": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\wwwroot\\template\\img\\service.jpg",
+      "SourceId": "LaboraTechDapperCoreMVCLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\wwwroot\\",
+      "BasePath": "_content/LaboraTechDapperCoreMVCLayer",
+      "RelativePath": "template/img/service#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "si74mzonhy",
+      "Integrity": "FIF1Wq1EQGh8r9DkMvY96arYDHUrhxoHszeNggG8x9I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\template\\img\\service.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\wwwroot\\template\\img\\team.jpg",
+      "SourceId": "LaboraTechDapperCoreMVCLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\wwwroot\\",
+      "BasePath": "_content/LaboraTechDapperCoreMVCLayer",
+      "RelativePath": "template/img/team#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6p9qbsuxw1",
+      "Integrity": "mq6U8FrKPShSytAxH0OpaZqlDDph5I4KV57/D7qsCWU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\template\\img\\team.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\wwwroot\\template\\img\\team_.jpg",
+      "SourceId": "LaboraTechDapperCoreMVCLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\wwwroot\\",
+      "BasePath": "_content/LaboraTechDapperCoreMVCLayer",
+      "RelativePath": "template/img/team_#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "at2zw5rsh5",
+      "Integrity": "AgPzrJ3p0DOJt+byEgKDYJ+w0/HLOybP4HYDCDvxBOs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\template\\img\\team_.jpg"
     },
     {
       "Identity": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\wwwroot\\template\\img\\team-1.jpg",
@@ -4093,51 +4177,6 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.c2tiyv64ts.css",
-      "AssetFile": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "362"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 11:45:22 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -4148,7 +4187,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "21183"
         },
         {
           "Name": "Content-Type",
@@ -4156,11 +4195,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"iCm+WEPKNELYd/mj+cSmjH1g7JR9yrdWFDgtQe7TYuQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 11:45:22 GMT"
+          "Value": "Wed, 09 Jul 2025 10:26:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4170,7 +4209,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-iCm+WEPKNELYd/mj+cSmjH1g7JR9yrdWFDgtQe7TYuQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.kl3t3fq8br.css",
+      "AssetFile": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21183"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iCm+WEPKNELYd/mj+cSmjH1g7JR9yrdWFDgtQe7TYuQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Jul 2025 10:26:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kl3t3fq8br"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iCm+WEPKNELYd/mj+cSmjH1g7JR9yrdWFDgtQe7TYuQ="
         }
       ]
     },
@@ -4361,7 +4445,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Jul 2025 07:43:27 GMT"
+          "Value": "Wed, 09 Jul 2025 18:34:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4398,7 +4482,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Jul 2025 07:43:27 GMT"
+          "Value": "Wed, 09 Jul 2025 18:34:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4443,7 +4527,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Jul 2025 07:43:27 GMT"
+          "Value": "Wed, 09 Jul 2025 18:34:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4488,7 +4572,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Jul 2025 07:43:27 GMT"
+          "Value": "Wed, 09 Jul 2025 18:34:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9597,7 +9681,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14659"
+          "Value": "21386"
         },
         {
           "Name": "Content-Type",
@@ -9605,11 +9689,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"28bBfk/f491hQaqv3kVFzvu6vB32plQMonTveb0+8Ps=\""
+          "Value": "\"Ed80c3ZdTjjDvgSBdKZdG1IN8Ba/qnwwN8/EFBzImZM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Jul 2025 08:33:26 GMT"
+          "Value": "Wed, 09 Jul 2025 20:02:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9619,12 +9703,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-28bBfk/f491hQaqv3kVFzvu6vB32plQMonTveb0+8Ps="
+          "Value": "sha256-Ed80c3ZdTjjDvgSBdKZdG1IN8Ba/qnwwN8/EFBzImZM="
         }
       ]
     },
     {
-      "Route": "template/css/style.zekattbrkx.css",
+      "Route": "template/css/style.zn1ett9z32.css",
       "AssetFile": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\wwwroot\\template\\css\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -9634,7 +9718,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14659"
+          "Value": "21386"
         },
         {
           "Name": "Content-Type",
@@ -9642,11 +9726,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"28bBfk/f491hQaqv3kVFzvu6vB32plQMonTveb0+8Ps=\""
+          "Value": "\"Ed80c3ZdTjjDvgSBdKZdG1IN8Ba/qnwwN8/EFBzImZM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Jul 2025 08:33:26 GMT"
+          "Value": "Wed, 09 Jul 2025 20:02:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9656,7 +9740,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zekattbrkx"
+          "Value": "zn1ett9z32"
         },
         {
           "Name": "label",
@@ -9664,7 +9748,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-28bBfk/f491hQaqv3kVFzvu6vB32plQMonTveb0+8Ps="
+          "Value": "sha256-Ed80c3ZdTjjDvgSBdKZdG1IN8Ba/qnwwN8/EFBzImZM="
         }
       ]
     },
@@ -9747,6 +9831,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-6XZpQtJoA9FW+0dpY7sfq2fbgwqwYq3BQExeBYv32Y0="
+        }
+      ]
+    },
+    {
+      "Route": "template/img/about.frcvp2blbx.jpg",
+      "AssetFile": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\wwwroot\\template\\img\\about.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "274424"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pbwTptVyc8/OdVGNtZ23UU8Vb5KRSVeOdazXaBr7n2Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Jul 2025 12:28:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "frcvp2blbx"
+        },
+        {
+          "Name": "label",
+          "Value": "template/img/about.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pbwTptVyc8/OdVGNtZ23UU8Vb5KRSVeOdazXaBr7n2Y="
+        }
+      ]
+    },
+    {
+      "Route": "template/img/about.jpg",
+      "AssetFile": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\wwwroot\\template\\img\\about.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "274424"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pbwTptVyc8/OdVGNtZ23UU8Vb5KRSVeOdazXaBr7n2Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Jul 2025 12:28:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pbwTptVyc8/OdVGNtZ23UU8Vb5KRSVeOdazXaBr7n2Y="
         }
       ]
     },
@@ -10321,6 +10487,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-SjuUGzb4XODn6Wp4OTx/xz9IxZHaO5Z2PBKYKaRMrrE="
+        }
+      ]
+    },
+    {
+      "Route": "template/img/service.jpg",
+      "AssetFile": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\wwwroot\\template\\img\\service.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "309045"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FIF1Wq1EQGh8r9DkMvY96arYDHUrhxoHszeNggG8x9I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 10:08:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FIF1Wq1EQGh8r9DkMvY96arYDHUrhxoHszeNggG8x9I="
+        }
+      ]
+    },
+    {
+      "Route": "template/img/service.si74mzonhy.jpg",
+      "AssetFile": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\wwwroot\\template\\img\\service.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "309045"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FIF1Wq1EQGh8r9DkMvY96arYDHUrhxoHszeNggG8x9I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 10:08:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "si74mzonhy"
+        },
+        {
+          "Name": "label",
+          "Value": "template/img/service.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FIF1Wq1EQGh8r9DkMvY96arYDHUrhxoHszeNggG8x9I="
+        }
+      ]
+    },
+    {
+      "Route": "template/img/team.6p9qbsuxw1.jpg",
+      "AssetFile": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\wwwroot\\template\\img\\team.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "158308"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mq6U8FrKPShSytAxH0OpaZqlDDph5I4KV57/D7qsCWU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 10:33:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6p9qbsuxw1"
+        },
+        {
+          "Name": "label",
+          "Value": "template/img/team.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mq6U8FrKPShSytAxH0OpaZqlDDph5I4KV57/D7qsCWU="
+        }
+      ]
+    },
+    {
+      "Route": "template/img/team.jpg",
+      "AssetFile": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\wwwroot\\template\\img\\team.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "158308"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mq6U8FrKPShSytAxH0OpaZqlDDph5I4KV57/D7qsCWU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 10:33:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mq6U8FrKPShSytAxH0OpaZqlDDph5I4KV57/D7qsCWU="
+        }
+      ]
+    },
+    {
+      "Route": "template/img/team_.at2zw5rsh5.jpg",
+      "AssetFile": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\wwwroot\\template\\img\\team_.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "104325"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AgPzrJ3p0DOJt+byEgKDYJ+w0/HLOybP4HYDCDvxBOs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 10:38:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "at2zw5rsh5"
+        },
+        {
+          "Name": "label",
+          "Value": "template/img/team_.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AgPzrJ3p0DOJt+byEgKDYJ+w0/HLOybP4HYDCDvxBOs="
+        }
+      ]
+    },
+    {
+      "Route": "template/img/team_.jpg",
+      "AssetFile": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\wwwroot\\template\\img\\team_.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "104325"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AgPzrJ3p0DOJt+byEgKDYJ+w0/HLOybP4HYDCDvxBOs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 10:38:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AgPzrJ3p0DOJt+byEgKDYJ+w0/HLOybP4HYDCDvxBOs="
         }
       ]
     },

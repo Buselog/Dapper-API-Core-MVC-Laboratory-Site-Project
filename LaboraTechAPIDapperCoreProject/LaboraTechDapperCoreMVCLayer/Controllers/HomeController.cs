@@ -6,22 +6,12 @@ namespace LaboraTechDapperCoreMVCLayer.Controllers
 {
     public class HomeController : Controller
     {
-        //public IActionResult Index()
-        //{
-        //    HttpClient client = new HttpClient(); // url formatında veri almak
-        //    var response = client.GetAsync("https://localhost:7102/api/Home/HomeList").Result;
-        //    List<Home> home =
-        //        JsonConvert.DeserializeObject<List<Home>>(response.Content.ReadAsStringAsync().Result);
-
-        //    return View(home);
-        //}
-
         [HttpGet]
         public IActionResult Update(int id)
         {
 
             HttpClient client = new HttpClient();
-            var response = client.GetAsync($"https://localhost:7102/api/Home/GeteHomeById/{id}").Result;
+            var response = client.GetAsync($"https://localhost:7102/api/Home/GetHomeById/{id}").Result;
             var home = JsonConvert.DeserializeObject<Home>(response.Content.ReadAsStringAsync().Result);
             return View(home);
         }
@@ -37,7 +27,14 @@ namespace LaboraTechDapperCoreMVCLayer.Controllers
 
             var response = client.PutAsync($"https://localhost:7102/api/Home/UpdateHome/{updatedHome.HomeId}", content).Result;
 
-            return RedirectToAction("Index");
+
+            if (!response.IsSuccessStatusCode)
+            {
+                var error = response.Content.ReadAsStringAsync().Result;
+                return Content($"Güncelleme başarısız: {response.StatusCode} - {error}");
+            }
+
+            return RedirectToAction("Index", "LaboraTechLayout");
         }
 
 

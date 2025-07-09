@@ -1,0 +1,37 @@
+﻿@model LaboraTechDapperCoreMVCLayer.Models.Address
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="update-form-container">
+	<div class="frosted-form-box fade-slide">
+		<h2 class="form-title">Update Address</h2>
+
+		<form asp-action="Update" asp-controller="Address" method="post">
+
+			<div class="form-group mb-3">
+				<label asp-for="SiteTitle" class="form-label" >Site Title</label>
+				<input asp-for="SiteTitle" class="form-control form-input" />
+			</div>
+
+			<div class="form-group mb-3">
+				<label asp-for="Mail" class="form-label">Mail</label>
+				<input asp-for="Mail" class="form-control form-input" />
+			</div>
+
+			<div class="form-group mb-3">
+				<label asp-for="Phone" class="form-label">Phone</label>
+				<input asp-for="Phone" class="form-control form-input">
+			</div>
+
+			<div class="form-group mb-3">
+				<label asp-for="Location" class="form-label">Location</label>
+				<input asp-for="Location" class="form-control form-input" />
+			</div>
+
+			<button type="submit" class="btn btn-update">Update</button>
+		</form>
+	</div>
+</div>
+

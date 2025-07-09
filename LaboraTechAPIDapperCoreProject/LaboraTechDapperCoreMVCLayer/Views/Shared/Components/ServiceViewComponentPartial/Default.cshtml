@@ -1,6 +1,6 @@
 ﻿@model List<LaboraTechDapperCoreMVCLayer.Models.Services>
 <div class="container-fluid container-service py-5">
-	<div class="container pt-5">
+	<div class="container pt-5 pb-5">
 		<div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
 			<h1 class="display-6 mb-3">Reliable, Precise, and Comprehensive Lab Services</h1>
 			<p class="mb-5">Sterile, accurate, and trusted lab solutions tailored to your needs.</p>
@@ -28,6 +28,7 @@
 						</div>
 						<h5 class="mb-3">@item.Title</h5>
 						<p class="mb-4">@item.ShortDescription</p>
+
 						<a class="btn btn-light px-3" href="/Service/Update/@item.ServicesId">Update<i class="bi bi-chevron-double-right ms-1"></i></a>
 						<a class="btn btn-light px-3" href="/Service/Delete/@item.ServicesId">Delete<i class="bi bi-chevron-double-left ms-1"></i></a>
 					</div>

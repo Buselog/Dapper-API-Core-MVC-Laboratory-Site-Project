@@ -1,120 +1,46 @@
 ﻿@model List<LaboraTechDapperCoreMVCLayer.Models.Team>
+@{
+	var satirSayisi = (int)Math.Ceiling(Model.Count / 4.0);
+}
 
 <div class="container-fluid container-team py-5">
-	<div class="container pb-5">
+	<div class="container pt-5 pb-5">
 		<div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
 			<h1 class="display-6 mb-3">The Minds Behind Our Mission</h1>
 			<p class="mb-5">A skilled team committed to quality, precision, and your health.</p>
-			<a href="/Service/Add" class="btn btn-primary py-3 px-5">Add New Team Member</a>
+			<a href="/Team/Add" class="btn btn-primary py-3 px-5">Add New Team Member</a>
 			<br />
 			<br />
 		</div>
-		<div class="row g-4">
 
-			@for (int i = 0; i < Model.Count; i++)
-			{
-				var item = Model[i];
-				var delay = (i % 4) switch
+		@for (int row = 0; row < satirSayisi; row++)
+		{
+			var rowClass = row % 3 == 0 ? "team-row-1" : row % 3 == 1 ? "team-row-2" : "team-row-3";
+			<div class="row g-4 mb-4 @rowClass">
+				@for (int i = row * 4; i < (row + 1) * 4 && i < Model.Count; i++)
 				{
-					0 => "0.1s",
-					1 => "0.3s",
-					2 => "0.5s",
-					_ => "0.7s"
-				};
-				<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="@delay">
-					<div class="team-item">
-						<div class="position-relative overflow-hidden">
-							<img class="img-fluid w-100" src="@item.Image" alt="" style="width:680px; height:220px;">
-							<div class="team-social">
-								<a class="btn btn-square btn-light mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+					var item = Model[i];
+					<div class="col-lg-3 col-md-6">
+						<div class="team-item">
+							<div class="position-relative overflow-hidden">
+								<img class="img-fluid w-100" src="@item.Image" alt="" style="height:220px; object-fit: cover;">
+								<div class="team-social">
+									<a class="btn btn-square btn-light mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+								</div>
+							</div>
+							<div class="text-center p-4">
+								<h5 class="mb-1">@item.Name</h5>
+								<span>@item.Services.Title</span>
+								<br />
+								<a class="btn btn-light px-3 mt-2" href="/Team/Update/@item.TeamId">Update<i class="bi bi-chevron-double-right ms-1"></i></a>
+								<a class="btn btn-light px-3 mt-2" href="/Team/Delete/@item.TeamId">Delete<i class="bi bi-chevron-double-left ms-1"></i></a>
 							</div>
 						</div>
-						<div class="text-center p-4">
-							<h5 class="mb-1">@item.Name</h5>
-							<span>@item.Services.Title</span>
-							<br />
-							<a class="btn btn-light px-3" href="/Team/Update/@item.TeamId">Update<i class="bi bi-chevron-double-right ms-1"></i></a>
-							<a class="btn btn-light px-3" href="/Team/Delete/@item.TeamId">Delete<i class="bi bi-chevron-double-left ms-1"></i></a>
-						</div>
 					</div>
-				</div>
-			}
-
-
-
-
-@* 			<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-				<div class="team-item">
-					<div class="position-relative overflow-hidden">
-						<img class="img-fluid w-100" src="img/team-2.jpg" alt="">
-						<div class="team-social">
-							<a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-							<a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-twitter"></i></a>
-							<a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
-							<a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-youtube"></i></a>
-						</div>
-					</div>
-					<div class="text-center p-4">
-						<h5 class="mb-1">Alex Robin</h5>
-						<span>Lab Assistant</span>
-					</div>
-				</div>
+				}
 			</div>
-			<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-				<div class="team-item">
-					<div class="position-relative overflow-hidden">
-						<img class="img-fluid w-100" src="img/team-3.jpg" alt="">
-						<div class="team-social">
-							<a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-							<a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-twitter"></i></a>
-							<a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
-							<a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-youtube"></i></a>
-						</div>
-					</div>
-					<div class="text-center p-4">
-						<h5 class="mb-1">Andrew Bon</h5>
-						<span>Lab Assistant</span>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-				<div class="team-item">
-					<div class="position-relative overflow-hidden">
-						<img class="img-fluid w-100" src="img/team-4.jpg" alt="">
-						<div class="team-social">
-							<a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-							<a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-twitter"></i></a>
-							<a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
-							<a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-youtube"></i></a>
-						</div>
-					</div>
-					<div class="text-center p-4">
-						<h5 class="mb-1">Martin Tompson</h5>
-						<span>Lab Assistant</span>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-				<div class="team-item">
-					<div class="position-relative overflow-hidden">
-						<img class="img-fluid w-100" src="img/team-5.jpg" alt="">
-						<div class="team-social">
-							<a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-							<a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-twitter"></i></a>
-							<a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
-							<a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-youtube"></i></a>
-						</div>
-					</div>
-					<div class="text-center p-4">
-						<h5 class="mb-1">Clarabelle Samber</h5>
-						<span>Lab Assistant</span>
-					</div>
-				</div>
-			</div> *@
+		}
 
-
-
-
-		</div>
 	</div>
 </div>
+

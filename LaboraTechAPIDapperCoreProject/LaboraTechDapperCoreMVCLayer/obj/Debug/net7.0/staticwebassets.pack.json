@@ -293,6 +293,10 @@
       "PackagePath": "staticwebassets\\template\\img\\about-3.jpg"
     },
     {
+      "Id": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\wwwroot\\template\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\about.jpg"
+    },
+    {
       "Id": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\wwwroot\\template\\img\\carousel-1.jpg",
       "PackagePath": "staticwebassets\\template\\img\\carousel-1.jpg"
     },
@@ -307,6 +311,10 @@
     {
       "Id": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\wwwroot\\template\\img\\footer.png",
       "PackagePath": "staticwebassets\\template\\img\\footer.png"
+    },
+    {
+      "Id": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\wwwroot\\template\\img\\service.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\service.jpg"
     },
     {
       "Id": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\wwwroot\\template\\img\\team-1.jpg",
@@ -327,6 +335,14 @@
     {
       "Id": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\wwwroot\\template\\img\\team-5.jpg",
       "PackagePath": "staticwebassets\\template\\img\\team-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\wwwroot\\template\\img\\team.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\team.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\wwwroot\\template\\img\\team_.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\team_.jpg"
     },
     {
       "Id": "C:\\Users\\BUSE\\source\\repos\\LaboraTechAPIDapperCoreProject\\LaboraTechDapperCoreMVCLayer\\wwwroot\\template\\img\\testimonial-1.jpg",

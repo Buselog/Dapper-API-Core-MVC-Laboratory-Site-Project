@@ -6,15 +6,6 @@ namespace LaboraTechDapperCoreMVCLayer.Controllers
 {
     public class AddressController : Controller
     {
-        //public IActionResult Index()
-        //{
-        //    HttpClient client = new HttpClient(); // url formatında veri almak
-        //    var response = client.GetAsync("https://localhost:7102/api/Address/AddressList").Result;
-        //    List<Address> Address =
-        //        JsonConvert.DeserializeObject<List<Address>>(response.Content.ReadAsStringAsync().Result);
-
-        //    return View(Address);
-        //}
 
         [HttpGet]
         public IActionResult Update(int id)
@@ -37,7 +28,13 @@ namespace LaboraTechDapperCoreMVCLayer.Controllers
 
             var response = client.PutAsync($"https://localhost:7102/api/Address/UpdateAddress/{updatedAddress.AddressId}", content).Result;
 
-            return RedirectToAction("Index");
+            if (!response.IsSuccessStatusCode)
+            {
+                var error = response.Content.ReadAsStringAsync().Result;
+                return Content($"Güncelleme başarısız: {response.StatusCode} - {error}");
+            }
+
+            return RedirectToAction("Index", "LaboraTechLayout");
         }
 
 

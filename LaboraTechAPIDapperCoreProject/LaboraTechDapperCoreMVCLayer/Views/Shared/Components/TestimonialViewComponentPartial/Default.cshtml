@@ -1,46 +1,49 @@
 ﻿
 @model List<LaboraTechDapperCoreMVCLayer.Models.Testimonial>
 
-<div class="container-fluid testimonial py-5">
+<div class="container-fluid testimonial py-5 mt-7">
 	<div class="container pt-5">
+		@* //mt-7 *@
 		<div class="row gy-5 gx-0">
 			<div class="col-lg-6 pe-lg-5 wow fadeIn" data-wow-delay="0.3s">
-				<h1 class="display-6 text-white mb-4">What Clients Say About Our Lab Services</h1>
+				<br /><br />
+				<h1 class="display-6 text-white mb-4 mt-7">What Clients Say About Our Lab Services</h1>
 				<p class="text-white mb-5">Discover what our patients say about us. Their stories reflect the care, precision, and trust we strive to deliver every day.</p>
 				<a href="/Testimonial/Add" class="btn btn-primary py-3 px-5">Add New Testimonial</a>
 			</div>
-			<div class="col-lg-6 mb-n5 wow fadeIn" data-wow-delay="0.5s">
-				<div class="bg-white p-5">
+
+			<div class="col-lg-6 mb-n5 wow fadeIn pb-5" data-wow-delay="0.5s">
+				<div class="testimonial-wrapper p-4">
 					<div class="owl-carousel testimonial-carousel wow fadeIn" data-wow-delay="0.1s">
 
-                        @foreach (var item in Model)
-                        {
-                            <div class="testimonial-item">
-                                <div class="icon-box-primary mb-4">
-                                    <i class="bi bi-chat-left-quote text-dark"></i>
-                                </div>
-                                <p class="fs-5 mb-4">@item.Description</p>
-                                <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 rounded-circle"
-                                         src="@item.Image"
-                                         alt="testimonial/@item.TestimonialId"
-                                         style="width: 400px; height: 400px; object-fit: cover;">
-                                    <div class="ps-3">
-                                        <h5 class="mb-1">@item.Name</h5>
-                                        <span class="text-primary">@item.Profession</span>
-                                        <br />
-                                        <a class="btn btn-light px-3" href="/Testimonial/Update/@item.TestimonialId">Update<i class="bi bi-chevron-double-right ms-1"></i></a>
-                                        <a class="btn btn-light px-3" href="/Testimonial/Delete/@item.TestimonialId">Delete<i class="bi bi-chevron-double-left ms-1"></i></a>
-                                    </div>
-                                    <br />
-                                </div>
-                            </div>
-                        }
+						@foreach (var item in Model)
+						{
+							<div class="testimonial-item">
+								<div class="icon-box-primary mb-4">
+									<i class="bi bi-chat-left-quote text-white"></i>
+								</div>
+								<p class="fs-5 mb-4">@item.Description</p>
+								<div class="d-flex align-items-center flex-wrap">
+									<img class="flex-shrink-0 rounded-circle me-3"
+										 src="@item.Image"
+										 alt="testimonial/@item.TestimonialId"
+										 style="width: 80px; height: 80px; object-fit: cover;">
+									<div>
+										<h5 class="mb-1 text-white">@item.Name</h5>
+										<span class="text-light">@item.Profession</span>
+										<br />
+										<a class="btn btn-light btn-sm px-3" href="/Testimonial/Update/@item.TestimonialId">Update<i class="bi bi-chevron-right ms-1"></i></a>
+										<a class="btn btn-light btn-sm px-3" href="/Testimonial/Delete/@item.TestimonialId">Delete<i class="bi bi-chevron-left ms-1"></i></a>
+									</div>
+								</div>
+							</div>
+						}
 
-						
 					</div>
 				</div>
 			</div>
+
 		</div>
 	</div>
 </div>
+

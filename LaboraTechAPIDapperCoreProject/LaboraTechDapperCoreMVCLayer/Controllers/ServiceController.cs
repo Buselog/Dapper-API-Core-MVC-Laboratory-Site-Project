@@ -6,16 +6,6 @@ namespace LaboraTechDapperCoreMVCLayer.Controllers
 {
     public class ServiceController : Controller
     {
-        //public IActionResult Index()
-        //{
-        //    HttpClient client = new HttpClient(); // url formatında veri almak
-        //    var response = client.GetAsync("https://localhost:7102/api/Service/ServiceList").Result;
-        //    List<Services> Service =
-        //        JsonConvert.DeserializeObject<List<Services>>(response.Content.ReadAsStringAsync().Result);
-
-        //    return View(Service);
-        //}
-
         [HttpGet]
         public IActionResult Add()
         {
@@ -33,7 +23,7 @@ namespace LaboraTechDapperCoreMVCLayer.Controllers
 
             var response = client.PostAsync("https://localhost:7102/api/Service/AddNewService", content).Result;
 
-            return RedirectToAction("Index");
+            return RedirectToAction("Index", "LaboraTechLayout");
         }
 
         // $ -> Parametre almak için kullandık.
@@ -59,10 +49,9 @@ namespace LaboraTechDapperCoreMVCLayer.Controllers
 
             var response = client.PutAsync($"https://localhost:7102/api/Service/UpdateService/{updatedService.ServicesId}", content).Result;
 
-            return RedirectToAction("Index");
+            return RedirectToAction("Index", "LaboraTechLayout");
         }
-
-
+      
         public IActionResult Delete(int id)
         {
             HttpClient client = new HttpClient();

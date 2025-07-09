@@ -66,7 +66,7 @@ namespace APIProjectLayer.Controllers
 
         [HttpPost]
         [Route("AddNewTeam")]
-        public async Task<IActionResult> AddNewTeam(Team newTeam)
+        public async Task<IActionResult> AddNewTeam(UpdateTeamDto newTeam)
         {
             DynamicParameters prm = new DynamicParameters();
             prm.Add("@Name", newTeam.Name);
@@ -80,10 +80,10 @@ namespace APIProjectLayer.Controllers
 
         [HttpPut]
         [Route("UpdateTeam/{id}")]
-        public async Task<IActionResult> UpdateTeam(int id, Team updatedTeam)
+        public async Task<IActionResult> UpdateTeam(int id, UpdateTeamDto updatedTeam)
         {
             DynamicParameters prm = new DynamicParameters();
-            prm.Add("@TeamId", updatedTeam.TeamId);
+            prm.Add("@TeamId", id);
             prm.Add("@Name", updatedTeam.Name);
             prm.Add("@Image", updatedTeam.Image);
             prm.Add("@SocialMedia", updatedTeam.SocialMedia);

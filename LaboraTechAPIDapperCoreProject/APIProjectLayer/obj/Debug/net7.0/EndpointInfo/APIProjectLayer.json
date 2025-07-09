@@ -17,6 +17,30 @@
         }
       }
     },
+    "/api/About/GetAboutById/{id}": {
+      "get": {
+        "tags": [
+          "About"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/About/UpdateAbout/{id}": {
       "put": {
         "tags": [
@@ -88,6 +112,30 @@
       "get": {
         "tags": [
           "Address"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Address/GetAddressById/{id}": {
+      "get": {
+        "tags": [
+          "Address"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -197,6 +245,30 @@
                 }
               }
             }
+          }
+        }
+      }
+    },
+    "/api/Home/GetHomeById/{id}": {
+      "get": {
+        "tags": [
+          "Home"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
           }
         }
       }
@@ -485,17 +557,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Team"
+                "$ref": "#/components/schemas/UpdateTeamDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Team"
+                "$ref": "#/components/schemas/UpdateTeamDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Team"
+                "$ref": "#/components/schemas/UpdateTeamDto"
               }
             }
           }
@@ -528,17 +600,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Team"
+                "$ref": "#/components/schemas/UpdateTeamDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Team"
+                "$ref": "#/components/schemas/UpdateTeamDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Team"
+                "$ref": "#/components/schemas/UpdateTeamDto"
               }
             }
           }
@@ -873,35 +945,6 @@
         },
         "additionalProperties": false
       },
-      "Team": {
-        "type": "object",
-        "properties": {
-          "teamId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "name": {
-            "type": "string",
-            "nullable": true
-          },
-          "image": {
-            "type": "string",
-            "nullable": true
-          },
-          "socialMedia": {
-            "type": "string",
-            "nullable": true
-          },
-          "servicesId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "services": {
-            "$ref": "#/components/schemas/Services"
-          }
-        },
-        "additionalProperties": false
-      },
       "Testimonial": {
         "type": "object",
         "properties": {
@@ -924,6 +967,32 @@
           "image": {
             "type": "string",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateTeamDto": {
+        "type": "object",
+        "properties": {
+          "teamId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "image": {
+            "type": "string",
+            "nullable": true
+          },
+          "socialMedia": {
+            "type": "string",
+            "nullable": true
+          },
+          "servicesId": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false

@@ -6,15 +6,8 @@ namespace LaboraTechDapperCoreMVCLayer.Controllers
 {
     public class TestimonialController : Controller
     {
-        //public IActionResult Index()
-        //{
-        //    HttpClient client = new HttpClient(); // url formatında veri almak
-        //    var response = client.GetAsync("https://localhost:7102/api/Testimonial/TestimonialList").Result;
-        //    List<Testimonial> Testimonial =
-        //        JsonConvert.DeserializeObject<List<Testimonial>>(response.Content.ReadAsStringAsync().Result);
-
-        //    return View(Testimonial);
-        //}
+        //ViewComponent, sadece yapıyı gösterir, view component class'ı içinde işlem yapılmaz(add, update, delete vs)
+        // View componnet içine listeleme fonksiyonu yazılabilir ama diğer işlemler controller'da yazılmalı. 
 
         [HttpGet]
         public IActionResult Add()
@@ -33,7 +26,7 @@ namespace LaboraTechDapperCoreMVCLayer.Controllers
 
             var response = client.PostAsync("https://localhost:7102/api/Testimonial/AddNewTestimonial", content).Result;
 
-            return RedirectToAction("Index");
+            return RedirectToAction("Index", "LaboraTechLayout");
         }
 
         // $ -> Parametre almak için kullandık.
@@ -59,7 +52,7 @@ namespace LaboraTechDapperCoreMVCLayer.Controllers
 
             var response = client.PutAsync($"https://localhost:7102/api/Testimonial/UpdateTestimonial/{updatedTestimonial.TestimonialId}", content).Result;
 
-            return RedirectToAction("Index");
+            return RedirectToAction("Index", "LaboraTechLayout");
         }
 
         public IActionResult Delete(int id)

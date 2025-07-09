@@ -65,6 +65,7 @@ wwwroot\template\contact.html
 wwwroot\template\css\bootstrap.min.css
 wwwroot\template\css\style.css
 wwwroot\template\feature.html
+wwwroot\template\img\about.jpg
 wwwroot\template\img\about-1.jpg
 wwwroot\template\img\about-2.jpg
 wwwroot\template\img\about-3.jpg
@@ -72,6 +73,9 @@ wwwroot\template\img\carousel-1.jpg
 wwwroot\template\img\carousel-2.jpg
 wwwroot\template\img\feature.jpg
 wwwroot\template\img\footer.png
+wwwroot\template\img\service.jpg
+wwwroot\template\img\team.jpg
+wwwroot\template\img\team_.jpg
 wwwroot\template\img\team-1.jpg
 wwwroot\template\img\team-2.jpg
 wwwroot\template\img\team-3.jpg

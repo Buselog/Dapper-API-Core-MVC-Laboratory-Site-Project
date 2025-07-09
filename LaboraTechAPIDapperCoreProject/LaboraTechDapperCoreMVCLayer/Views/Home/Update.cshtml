@@ -1,0 +1,46 @@
+﻿@model LaboraTechDapperCoreMVCLayer.Models.Home
+@{
+	ViewData["Title"] = "Update";
+	Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="update-form-container">
+	<div class="frosted-form-box fade-slide">
+		<h2 class="form-title">Update Home</h2>
+
+
+		<form asp-action="Update" asp-controller="Home" method="post">
+
+			@Html.HiddenFor(m => m.HomeId)
+
+			<div class="form-group mb-3">
+				<label asp-for="SiteTitle" class="form-label">Site Title</label>
+				<input asp-for="SiteTitle" class="form-control form-input" />
+			</div>
+
+			<div class="form-group mb-3">
+				<label asp-for="Title" class="form-label">Title</label>
+				<input asp-for="Title" class="form-control form-input" />
+			</div>
+
+			<div class="form-group mb-3">
+				<label asp-for="SubTitle" class="form-label">Subtitle</label>
+				<input asp-for="SubTitle" class="form-control form-input" />
+			</div>
+
+			<div class="form-group mb-3">
+				<label asp-for="ImageUrl" class="form-label">Image</label>
+
+				<div class="d-flex align-items-stretch gap-3">
+					<img src="@Model.ImageUrl" style="width: 100px; height: 100px; object-fit: cover; border-radius: 6px;" />
+
+					<textarea asp-for="ImageUrl" class="form-control form-input" style="height: 100px;"></textarea>
+				</div>
+			</div>
+
+			<button type="submit" class="btn btn-update">Update</button>
+		</form>
+	</div>
+</div>
+
+

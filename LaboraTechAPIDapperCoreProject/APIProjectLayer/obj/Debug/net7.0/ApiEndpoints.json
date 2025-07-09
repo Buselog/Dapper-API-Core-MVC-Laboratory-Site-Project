@@ -27,6 +27,22 @@
   },
   {
     "ContainingType": "APIProjectLayer.Controllers.AboutController",
+    "Method": "GetAboutById",
+    "RelativePath": "api/About/GetAboutById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIProjectLayer.Controllers.AboutController",
     "Method": "UpdateAbout",
     "RelativePath": "api/About/UpdateAbout/{id}",
     "HttpMethod": "PUT",
@@ -74,6 +90,22 @@
   },
   {
     "ContainingType": "APIProjectLayer.Controllers.AddressController",
+    "Method": "GetAddressById",
+    "RelativePath": "api/Address/GetAddressById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIProjectLayer.Controllers.AddressController",
     "Method": "UpdateAddress",
     "RelativePath": "api/Address/UpdateAddress/{id}",
     "HttpMethod": "PUT",
@@ -98,6 +130,22 @@
     "Method": "DeleteHome",
     "RelativePath": "api/Home/DeleteHome/{id}",
     "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIProjectLayer.Controllers.HomeController",
+    "Method": "GetHomeById",
+    "RelativePath": "api/Home/GetHomeById/{id}",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -259,7 +307,7 @@
     "Parameters": [
       {
         "Name": "newTeam",
-        "Type": "APIProjectLayer.Models.Team",
+        "Type": "APIProjectLayer.Models.UpdateTeamDto",
         "IsRequired": true
       }
     ],
@@ -332,7 +380,7 @@
       },
       {
         "Name": "updatedTeam",
-        "Type": "APIProjectLayer.Models.Team",
+        "Type": "APIProjectLayer.Models.UpdateTeamDto",
         "IsRequired": true
       }
     ],

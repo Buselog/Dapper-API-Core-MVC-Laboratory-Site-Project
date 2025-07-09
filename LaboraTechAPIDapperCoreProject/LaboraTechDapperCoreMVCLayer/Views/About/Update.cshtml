@@ -1,0 +1,69 @@
+﻿@model LaboraTechDapperCoreMVCLayer.Models.About
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="update-form-container">
+	<div class="frosted-form-box fade-slide">
+		<h2 class="form-title">Update About</h2>
+
+
+		<form asp-action="Update" asp-controller="About" method="post">
+
+			@Html.HiddenFor(m => m.AboutId)
+
+			<div class="form-group mb-3">
+				<label asp-for="Title" class="form-label">Title</label>
+				<input asp-for="Title" class="form-control form-input" />
+			</div>
+
+			<div class="form-group mb-3">
+				<label asp-for="ShortDescription" class="form-label">Short Description</label>
+				<textarea asp-for="ShortDescription" class="form-control form-input" rows="3"></textarea>
+			</div>
+
+			<div class="form-group mb-3">
+				<label asp-for="ExperienceYear" class="form-label">Experience Year</label>
+				<input asp-for="ExperienceYear" class="form-control form-input"/>
+			</div>
+
+			<div class="form-group mb-3">
+				<label asp-for="CompleteCases" class="form-label">Complete Cases</label>
+				<input asp-for="CompleteCases" class="form-control form-input" />
+			</div>
+			<div class="form-group mb-3">
+				<label asp-for="ImageUrl1" class="form-label">Image-1 Url</label>
+
+				<div class="d-flex align-items-stretch gap-3">
+					<img src="@Model.ImageUrl1" style="width: 100px; height: 90px; object-fit: cover; border-radius: 6px;" />
+
+					<textarea asp-for="@Model.ImageUrl1" class="form-control form-input" style="height: 90px;"></textarea>
+				</div>
+			</div>
+
+			<div class="form-group mb-3">
+				<label asp-for="ImageUrl2" class="form-label">Image-2 Url</label>
+
+				<div class="d-flex align-items-stretch gap-3">
+					<img src="@Model.ImageUrl2" style="width: 100px; height: 90px; object-fit: cover; border-radius: 6px;" />
+
+					<textarea asp-for="@Model.ImageUrl2" class="form-control form-input" style="height: 90px;"></textarea>
+				</div>
+			</div>
+		
+
+			<div class="form-group mb-3">
+				<label asp-for="ImageUrl3" class="form-label">Image-3 Url</label>
+
+				<div class="d-flex align-items-stretch gap-3">
+					<img src="@Model.ImageUrl3" style="width: 100px; height: 90px; object-fit: cover; border-radius: 6px;" />
+
+					<textarea asp-for="@Model.ImageUrl3" class="form-control form-input" style="height: 90px;"></textarea>
+				</div>
+			</div>
+
+			<button type="submit" class="btn btn-update">Update</button>
+		</form>
+	</div>
+</div>
