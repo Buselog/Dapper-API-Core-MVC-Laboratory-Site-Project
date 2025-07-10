@@ -149,6 +149,10 @@ Geliştirilen API, veri işleme katmanını taşırken; şık ve dinamik arayüz
 <img src="https://github.com/user-attachments/assets/17e004ea-166b-40ee-94b4-c0da2cdd10de" width="700"  />
 
 
+### 🔖 Footer Section
+
+
+<img src="https://github.com/user-attachments/assets/fe86ea21-840c-4705-a041-bca3c0c94652" width="700"  />
 
 
 
