@@ -1,5 +1,5 @@
 # 🧪 LaboraTech – ASP.NET Core MVC Tabanlı Laboratuvar Yönetim Sistemi
-LaboraTech, modern kullanıcı arayüzü ve güçlü mimarisiyle geliştirilmiş bir laboratuvar hizmet yönetim sistemidir. Proje **Core Web API**, **ASP.NET Core MVC yapısı** ve **Dapper ORM** kullanılarak, ***Stored Procedure*** üzerinden ASP.NET Core Web API aracılığıyla veritabanı işlemleri gerçekleştirecek şekilde inşa edilmiştir.
+LaboraTech, modern kullanıcı arayüzü ve güçlü mimarisiyle geliştirilmiş bir laboratuvar hizmet yönetim sistemidir. Proje **RESTful Web API**, **ASP.NET Core MVC** yapısı ve **Dapper ORM** kullanılarak, ***Stored Procedure*** üzerinden ASP.NET Core Web API aracılığıyla veritabanı işlemleri gerçekleştirecek şekilde inşa edilmiştir.
 
 Geliştirilen API, veri işleme katmanını taşırken; şık ve dinamik arayüz, laboratuvar hizmetleri, ekip üyeleri, hakkında bilgileri ve kullanıcı referanslarını yönetilebilir kılar. Proje aynı zamanda **ViewComponent** destekli, tekrar kullanılabilir modüllerle donatılmıştır.
 
