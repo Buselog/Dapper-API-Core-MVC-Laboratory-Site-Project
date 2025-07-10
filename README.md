@@ -113,6 +113,9 @@ Geliştirilen API, veri işleme katmanını taşırken; şık ve dinamik arayüz
 <img src="assets/LabHome.gif" width="700" alt="Homepage Animation" />
 
 
+<img src="https://github.com/user-attachments/assets/012f409e-aea7-4ed0-a2b9-9856ef7c01e0" width="700"  />
+
+
 ### 🔎 About Section
 
 
@@ -131,10 +134,19 @@ Geliştirilen API, veri işleme katmanını taşırken; şık ve dinamik arayüz
 <img src="assets/LabTeam.gif" width="700" alt="Team Animation" />
 
 
+<img src="https://github.com/user-attachments/assets/2a8a7b13-9967-4a3e-b6e0-7b0f8f365f38" width="700"  />
+
+
+<img src="https://github.com/user-attachments/assets/cafe4264-1f07-4ada-be1b-0f405eb0bd40" width="700"  />
+
+
 ### 👨‍👩‍👧‍👦 Testimonial Section
 
 
 <img src="assets/LabTestimonial.gif" width="700" alt="Testimonial Animation" />
+
+
+<img src="https://github.com/user-attachments/assets/17e004ea-166b-40ee-94b4-c0da2cdd10de" width="700"  />
 
 
 
