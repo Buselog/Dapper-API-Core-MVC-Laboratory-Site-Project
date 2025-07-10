@@ -38,29 +38,6 @@ Geliştirilen API, veri işleme katmanını taşırken; şık ve dinamik arayüz
 - Bu yapı, UI tarafında yeniden kullanılabilirlik ve modülerlik sağlar.
 
 
-### 🧊 Glassmorphism Tasarım
-
-- Tüm kartlar (Service, Team, Testimonial) şeffaf-buz (Glassmorphism) stilde tasarlanmıştır.
-
-- Arka planlarda koyu filtreli görseller ile içerik ön plana çıkarılır.
-
-
-### 👨‍🔬 Ekip Yönetimi (Team)
-
-- 3 satırdan oluşan ekip kartları, her satır için farklı yönde kayan otomatik animasyon içerir.
-
-- Kartlar arasında padding boşlukları ile şık bir görünüm korunur.
-
-
-### 💬 Müşteri Yorumları (Testimonial)
-
-- Carousel içinde kayan referans kartları.
-
-- Kartlar saydam ve blur efektli olup beyaz alan kullanılmaz.
-
-- Carousel okları içerde, stilize ve responsive.
-
-
 ### 📊 Admin Paneli
 
 - About, Service, Team gibi modüller için CRUD işlemleri.
