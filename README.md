@@ -67,12 +67,6 @@ Geliştirilen API, veri işleme katmanını taşırken; şık ve dinamik arayüz
 
 - HTML5 / CSS3 / Bootstrap 5
 
-- FontAwesome & Bootstrap Icons
-
-- Owl Carousel, WOW.js, jQuery
-
-- Modern CSS Animasyonları (keyframes, blur, glassmorphism)
-
 
 -----
 
